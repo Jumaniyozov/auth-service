@@ -1,0 +1,13 @@
+version: "3"
+
+dotenv: [ '.env' ]
+
+tasks:
+  build/sso:
+    desc: "Build sso service executable"
+    cmds:
+      - go build -o ./bin/sso ./cmd/sso/*
+  run/sso:
+    desc: "Run sso service"
+    cmds:
+      - go run ./cmd/sso/* --config=./config/local.yaml
