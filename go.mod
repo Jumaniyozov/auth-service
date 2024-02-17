@@ -8,6 +8,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.17.0
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/jumaniyozov/auth-service-proto v0.0.2
+	github.com/mattn/go-sqlite3 v1.14.22
 	golang.org/x/crypto v0.19.0
 	google.golang.org/grpc v1.61.1
 )
@@ -20,7 +21,6 @@ require (
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	golang.org/x/net v0.18.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
