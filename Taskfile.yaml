@@ -11,3 +11,7 @@ tasks:
     desc: "Run sso service"
     cmds:
       - go run ./cmd/sso/* --config=./config/local.yaml
+  migrate/sso:
+    desc: "Run sso service migration"
+    cmds:
+      - go run ./cmd/migrator/* --storage-path=./storage/sso.db --migrations-path=./migrations
